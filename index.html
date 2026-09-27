@@ -85,11 +85,11 @@
 
             <div class="social-links">
 
-                <a href="#" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/evertton-cardoso-94a990212/" target="_blank" aria-label="LinkedIn">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
 
-                <a href="#" target="_blank" aria-label="GitHub">
+                <a href="https://github.com/Everttoncrd" target="_blank" aria-label="GitHub">
                     <i class="fa-brands fa-github"></i>
                 </a>
 
@@ -103,7 +103,7 @@
             <div class="image-border">
 
                 <img
-                    src="./img/perfil.jpg"
+                    src="./perfil/290987.jpg"
                     alt="Foto de Evertton Cardoso"
                 >
 
@@ -592,28 +592,50 @@
         <div class="projects-container">
 
 
-            <!-- DASHBOARD FINANCEIRO -->
+            <!-- GALERIA DE FOTOS -->
 
             <article class="project-card">
+
+                
+                <div
+                    class="project-preview"
+                    onclick="openProjectImage('./perfil/projetos/Imagem do ChatGPT 27 de set. de 2026, 12_34_42.png')"
+                >
+
+                    <img
+                        src="./perfil/projetos/Imagem do ChatGPT 27 de set. de 2026, 12_34_42.png"
+                        alt="Galeria de fotos"
+                    >
+
+                    <div class="project-preview-overlay">
+
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+
+                        <span>
+                            Visualizar galeria
+                        </span>
+
+                    </div>
+
+                </div>
 
                 <div class="project-icon">
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
 
                 <h3>
-                    Dashboard Financeiro
+                    Galeria de fotos
                 </h3>
 
                 <p>
-                    Dashboard desenvolvido para análise e visualização
-                    de indicadores financeiros, permitindo acompanhar
-                    receitas, despesas e resultados.
+                    Aplicação web para exploração e pesquisa de imagens, desenvolvida com integração a uma API externa. Permite pesquisar diferentes temas e explorar conteúdos visuais através de uma interface moderna e responsiva
                 </p>
 
                 <div class="technologies">
-                    <span>Power BI</span>
-                    <span>DAX</span>
-                    <span>Excel</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVASCRIPT</span>
+                    <span>REST API</span>
                 </div>
 
                 <a href="#" class="project-link">
@@ -628,19 +650,19 @@
 
 
             <!-- ===================================
-                 DASHBOARD RH COM PRINT
+                 TASKSFLOW
             ==================================== -->
 
             <article class="project-card project-card-image">
 
                 <div
                     class="project-preview"
-                    onclick="openProjectImage('./perfil/projetos/dashboard.png')"
+                    onclick="openProjectImage('./perfil/projetos/tasksflow.png')"
                 >
 
                     <img
-                        src="./perfil/projetos/dashboard.png"
-                        alt="Dashboard de Recursos Humanos desenvolvido no Power BI"
+                        src="./perfil/projetos/tasksflow.png"
+                        alt="TASKSFLOW"
                     >
 
                     <div class="project-preview-overlay">
@@ -648,7 +670,7 @@
                         <i class="fa-solid fa-magnifying-glass-plus"></i>
 
                         <span>
-                            Visualizar dashboard
+                            Visualizar tasksflow
                         </span>
 
                     </div>
@@ -665,21 +687,20 @@
                     </div>
 
                     <h3>
-                        Dashboard de RH
+                        TASKSFLOW
                     </h3>
 
                     <p>
-                        Dashboard desenvolvido no Power BI para
-                        prática e aprimoramento de análise de dados,
-                        com indicadores de colaboradores ativos,
-                        admissões, desligamentos, headcount e turnover.
+                        Aplicação full stack para gerenciamento de tarefas, com autenticação de usuários, dashboard, criação e edição de tarefas, categorias, prioridades, acompanhamento de status e configurações de conta.
                     </p>
 
                     <div class="technologies">
 
-                        <span>Power BI</span>
-                        <span>DAX</span>
-                        <span>Excel</span>
+                        <span>REACT</span>
+                        <span>FLASK</span>
+                        <span>PYTHON</span>
+                        <span>SQLITE</span>
+                        <span>REST API</span>
 
                     </div>
 
@@ -689,7 +710,7 @@
                         onclick="openProjectImage('./img/projetos/dashboard-rh.jpg')"
                     >
 
-                        Visualizar dashboard
+                        Visualizar projeto
 
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
@@ -700,80 +721,7 @@
             </article>
 
 
-            <!-- SISTEMA DE TAREFAS -->
-
-            <article class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-list-check"></i>
-                </div>
-
-                <h3>
-                    Sistema de Tarefas
-                </h3>
-
-                <p>
-                    Aplicação desenvolvida para gerenciamento
-                    e organização de tarefas, explorando conceitos
-                    de desenvolvimento backend.
-                </p>
-
-                <div class="technologies">
-
-                    <span>Python</span>
-                    <span>Backend</span>
-
-                </div>
-
-                <a href="#" class="project-link">
-
-                    Ver projeto
-
-                    <i class="fa-solid fa-arrow-right"></i>
-
-                </a>
-
-            </article>
-
-
-            <!-- PORTFÓLIO -->
-
-            <article class="project-card">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-laptop-code"></i>
-                </div>
-
-                <h3>
-                    Portfólio Pessoal
-                </h3>
-
-                <p>
-                    Desenvolvimento deste portfólio para apresentar
-                    minha trajetória profissional, conhecimentos,
-                    projetos, certificados e formação.
-                </p>
-
-                <div class="technologies">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-
-                </div>
-
-                <a href="#home" class="project-link">
-
-                    Ver projeto
-
-                    <i class="fa-solid fa-arrow-right"></i>
-
-                </a>
-
-            </article>
-
-        </div>
-
+        
     </section>
 
 
@@ -1042,7 +990,7 @@
                     </span>
 
                     <p>
-                        seuemail@email.com
+                        everton.cardoso.crd@gmail.com
                     </p>
 
                 </div>
@@ -1051,7 +999,7 @@
 
 
             <a
-                href="#"
+                href="https://www.linkedin.com/in/evertton-cardoso-94a990212/"
                 target="_blank"
                 class="contact-card"
             >
@@ -1074,7 +1022,7 @@
 
 
             <a
-                href="#"
+                href="https://github.com/Everttoncrd"
                 target="_blank"
                 class="contact-card"
             >
